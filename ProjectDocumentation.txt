@@ -1,0 +1,20 @@
+﻿Alex Peterson:
+
+
+My code meets the criteria in the following ways:
+
+
+1. Object oriented elements:
+   1. classes : LinearRegression, BoxScore, GetData, ModelTools
+   2. Subclasses: LinearRegression is a subclass of ModelTools as well as other learning algorithms that could easily be added because of this ModelTools.
+   3. Abstract Class: ModelTools
+   4. Interface: Learning Algorithm
+2. Code elements
+   1. Collection classes: used array lists as well as VariableArray and BoxScore
+   2. Exception handling: Try catch statements surround code as well as threading for UI elements.
+3. MVC
+   1. FXMLDocumentController is always the middle man between the regression, data, etc. and the UI.
+4. UI must utilize multiple scenes and one must change based on the application state.
+   1. There is only one scene however it does change the plotting based on the application state.
+5. “About” information is included below the spreadsheet of data.
+6. Application loads a preset dataset.
